@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="CalculatorStyle.css">
+  </head>
+  <body>
+    <div class="DIV">
+      <form >
+        <input type="text" name="Form" id="Form">
+        <div class="Button">
+          <input type="button" value="1" id="1" onclick="dispaly('1')">
+          <input type="button" value="2" id="2" onclick="dispaly('2')">
+          <input type="button" value="3" id="3" onclick="dispaly('3')">
+          <input type="button" value="+" id="plus" onclick="dispaly('+')">
+          <br>
+          <input type="button" value="4" id="4" onclick="dispaly('4')">
+          <input type="button" value="5" id="5" onclick="dispaly('5')">
+          <input type="button" value="6" id="6" onclick="dispaly('6')">
+          <input type="button" value="-" id="minus" onclick="dispaly('-')">
+          <br>
+          <input type="button" value="7" id="7" onclick="dispaly('7')">
+          <input type="button" value="8" id="8" onclick="dispaly('8')">
+          <input type="button" value="9" id="9" onclick="dispaly('9')">
+          <input type="button" value="*" id="multiply" onclick="dispaly('*')">
+          <br>
+          <input type="button" value="/" id="slash" onclick="dispaly('/')">
+          <input type="button" value="0" id="0" onclick="dispaly('0')">
+          <input type="button" value="." id="dot" onclick="dispaly('.')">
+          <input type="button" value="=" id="equal" onclick="solve()">
+          <br>
+          <input type="button" value="Clear All" id="clear" onclick="document.getElementById('Form').value='' "/>
+        </div>
+      </form>
+    </div>
+    <script src="CalculatorJs.js">
+
+    </script>
+
+  </body>
+
+</html>
